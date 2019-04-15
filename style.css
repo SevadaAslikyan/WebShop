@@ -1,0 +1,223 @@
+.header{
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 15% 0 15%;
+
+    height: auto;
+    flex-flow: row wrap;
+}
+
+
+
+/* USER */
+.user{
+    flex-basis: 25%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.ellipse{
+    border-radius: 50%;
+    background-color: black;
+    width: 32px;
+    height: 33px;
+    align-self: center;
+
+}
+
+.imgFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usLog{
+    text-decoration: none;
+    font-weight: bold;
+color: black;
+}
+.usLog:hover{
+    color: grey;
+}
+.usSign{
+    text-decoration: none;
+    font-weight: bold;
+color: orange;
+}
+
+.usSign:hover{
+    color: darkorange;
+}
+/* USER */
+
+
+
+
+/* LOGO */
+.logo{
+    flex-basis: 50%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.logoOn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* LOGO */
+
+
+
+
+
+
+
+/* cart*/
+.cart{
+    flex-basis: 25%;
+    align-self: center;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+
+}
+
+.favOn{
+    display: flex;
+    flex-basis: 50px;
+    align-self: center;
+
+
+}
+
+.like{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+background-color: red;
+    position: relative;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    align-self: center;
+    left: 15px;
+
+
+}
+
+.cartOn{
+    display: flex;
+    flex-basis: 90px;
+    align-self: center;
+    margin-left: 15px;
+
+
+}
+
+.bag{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    position: relative;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    align-self: center;
+    right: 35px;
+}
+/* cart*/
+
+
+
+
+
+
+
+
+
+
+.navigation{
+    flex-basis: 100%;
+    display: flex;
+    height: auto;
+    flex-flow: row wrap;
+}
+
+/* Search */
+.search{
+    flex-basis: 30%;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.searching{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Search */
+
+
+
+
+
+
+/* Menu */
+.menu{
+    flex-basis: 50%;
+    height: 45px;
+    line-height: 45px;
+}
+
+
+.menuLi {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menuLi li { display: inline; }
+.menuLi a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    padding:  13px 25px 13px 25px;
+    text-align: center;
+}
+.menuLi a:hover {
+
+    border-radius: 5px ;
+    background-color: orange;
+    color: white;
+}
+/* Menu */
+
+
+
+
+
+/* Contact */
+.contact{
+    flex-basis: 20%;
+
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+}
+
+.contact a {
+    color: black;
+    padding: 5px;
+
+}
+/* Contact*/
+

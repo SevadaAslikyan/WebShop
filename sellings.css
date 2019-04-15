@@ -1,0 +1,541 @@
+.WomenSelling{
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 15% 0 15%;
+
+    height: 650px;
+    flex-flow: row wrap;
+}
+
+.wtxt1{
+
+    flex-basis: 100%;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+   text-align:  center;
+  align-self: center;
+}
+
+.m1{
+
+    height: 400px;
+    flex-basis: 22%;
+
+}
+
+.m1:hover{
+    outline: none;
+    border-color: #edb643;
+    box-shadow: 0 0 10px #edb643;
+}
+
+.m1Wrapper{
+    flex-basis: 100%;
+    height: 320px;
+background-image: url("womenClothes/girl1.jpg");
+    background-position: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hearthHandling{
+   height: 40px;
+    flex-basis: 100%;
+    padding-left: 10px;
+}
+.hearth{
+    color: unset;
+    font-size: 50px;
+    line-height: 40px;
+}
+.hearth:hover{
+    cursor: pointer;
+    font-size: 60px;
+}
+.price-shop{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.price-sale{
+    display: flex;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 0 10px 10px;
+    flex-flow: row nowrap;
+    text-align: center;
+    color: white;
+}
+
+.price{
+background-color: darkslategray;
+    flex-basis: 60%;
+    height: 30px;
+    border-radius: 6%;
+}
+
+.sale{
+    flex-basis: 40%;
+    background-color: firebrick;
+}
+
+#shop{
+ background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 6%;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 10px 10px 0;
+    visibility:hidden
+}
+#shop:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.m1footer{
+    flex-basis: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.m1FooterText{
+flex-basis: 100%;
+    height: 30px;
+    color: darkslategray;
+}
+
+.m1Stars{
+    display: flex;
+    flex-basis: 100%;
+    height: 50px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.outerWear{
+flex-basis: 30%;
+    color: grey;
+}
+
+#stars{
+    flex-basis: 60%;
+    display: flex;
+align-items: center;
+    justify-content: flex-end;
+}
+
+.far{
+    padding-left:3px ;
+}
+.checked:hover{
+    background-color: yellow;
+}
+
+
+
+
+/* M2 */
+.m2{
+    height: 400px;
+    flex-basis: 22%;
+    margin-left: 4%;
+
+}
+
+.m2:hover{
+    outline: none;
+    border-color: #edb643;
+    box-shadow: 0 0 10px #edb643;
+}
+
+.m2Wrapper{
+    flex-basis: 100%;
+    height: 320px;
+    background-image: url("womenClothes/girl2.jpg");
+    background-position: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hearthHandling2{
+    height: 40px;
+    flex-basis: 100%;
+    padding-left: 10px;
+}
+.hearth2{
+    color: unset;
+    font-size: 50px;
+    line-height: 40px;
+}
+.hearth2:hover{
+    cursor: pointer;
+    font-size: 60px;
+}
+.price-shop2{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.price-sale2{
+    display: flex;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 0 10px 10px;
+    flex-flow: row nowrap;
+    text-align: center;
+    color: white;
+}
+
+.price2{
+    background-color: darkslategray;
+    flex-basis: 60%;
+    height: 30px;
+    border-radius: 6%;
+}
+
+.sale2{
+    flex-basis: 40%;
+    background-color: firebrick;
+}
+
+#shop2{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 6%;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 10px 10px 0;
+    visibility:hidden;
+}
+#shop2:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.m2footer{
+    flex-basis: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.m2FooterText{
+    flex-basis: 100%;
+    height: 30px;
+    color: darkslategray;
+}
+
+.m2Stars{
+    display: flex;
+    flex-basis: 100%;
+    height: 50px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.outerWear2{
+    flex-basis: 30%;
+    color: grey;
+}
+
+#stars2{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.far{
+    padding-left:3px ;
+}
+.checked:hover{
+    background-color: yellow;
+}
+
+
+
+
+/* M3 */
+.m3{
+
+    height: 400px;
+    flex-basis: 22%;
+    margin-left: 4%;
+
+}
+
+.m3:hover{
+    outline: none;
+    border-color: #edb643;
+    box-shadow: 0 0 10px #edb643;
+}
+
+
+.m3Wrapper{
+    flex-basis: 100%;
+    height: 320px;
+    background-image: url("womenClothes/girl3.jpg");
+    background-position: top;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hearthHandling3{
+    height: 40px;
+    flex-basis: 100%;
+    padding-left: 10px;
+}
+.hearth3{
+    color: unset;
+    font-size: 50px;
+    line-height: 40px;
+}
+.hearth3:hover{
+    cursor: pointer;
+    font-size: 60px;
+}
+.price-shop3{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.price-sale3{
+    display: flex;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 0 10px 10px;
+    flex-flow: row nowrap;
+    text-align: center;
+    color: white;
+}
+
+.price3{
+    background-color: darkslategray;
+    flex-basis: 60%;
+    height: 30px;
+    border-radius: 6%;
+}
+
+.sale3{
+    flex-basis: 40%;
+    background-color: firebrick;
+}
+
+#shop3{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 6%;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 10px 10px 0;
+    visibility:hidden;
+}
+#shop3:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.m3footer{
+    flex-basis: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.m3FooterText{
+    flex-basis: 100%;
+    height: 30px;
+    color: darkslategray;
+}
+
+.m3Stars{
+    display: flex;
+    flex-basis: 100%;
+    height: 50px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.outerWear3{
+    flex-basis: 30%;
+    color: grey;
+}
+
+#stars3{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.far{
+    padding-left:3px ;
+}
+.checked:hover{
+    background-color: yellow;
+}
+
+
+
+
+/* M4*/
+.m4{
+
+    height: 400px;
+    flex-basis: 22%;
+    margin-left: 4%;
+}
+
+
+.m4:hover{
+    outline: none;
+    border-color: #edb643;
+    box-shadow: 0 0 10px #edb643;
+}
+
+.m4Wrapper{
+    flex-basis: 100%;
+    height: 320px;
+    background-image: url("womenClothes/girl4.jpg");
+
+    background-position: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hearthHandling4{
+    height: 40px;
+    flex-basis: 100%;
+    padding-left: 10px;
+}
+.hearth4{
+    color: unset;
+    font-size: 50px;
+    line-height: 40px;
+}
+.hearth4:hover{
+    cursor: pointer;
+    font-size: 60px;
+}
+.price-shop4{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.price-sale4{
+    display: flex;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 0 10px 10px;
+    flex-flow: row nowrap;
+    text-align: center;
+    color: white;
+}
+
+.price4{
+    background-color: darkslategray;
+    flex-basis: 60%;
+    height: 30px;
+    border-radius: 6%;
+}
+
+.sale4{
+    flex-basis: 40%;
+    background-color: firebrick;
+}
+
+#shop4{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 6%;
+    flex-basis: 40%;
+    height: 30px;
+    margin: 0 10px 10px 0;
+    visibility:hidden;
+}
+#shop4:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.m4footer{
+    flex-basis: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.m4FooterText{
+    flex-basis: 100%;
+    height: 30px;
+    color: darkslategray;
+}
+
+.m4Stars{
+    display: flex;
+    flex-basis: 100%;
+    height: 50px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.outerWear4{
+    flex-basis: 30%;
+    color: grey;
+}
+
+#stars4{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.far{
+    padding-left:3px ;
+}
+.checked:hover{
+    background-color: yellow;
+}
+
+
+/* WomenFooter */
+.footm5{
+
+    flex-basis: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.viewMore1{
+    width: 170px;
+    height: 35px;
+    background-color: unset;
+    border: 1px solid darkslategray;
+    font-weight: bold;
+    color: darkslategray;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.viewMore1:hover{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}

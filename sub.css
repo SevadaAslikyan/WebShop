@@ -1,0 +1,47 @@
+.subs{
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 15% 0 15%;
+
+    height: 80px;
+    flex-flow: row nowrap;
+}
+
+.subText{
+flex-basis: 52%;
+
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.subEnter{
+    flex-basis: 48%;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.inputHeight{
+
+    height: 35px;
+    border: 1px solid black;
+}
+
+
+.buttonSub{
+border-radius: 8%;
+    height: 35px;
+    width: 145px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+
+
+.buttonSub:hover{
+    background-color: orange;
+}
